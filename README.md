@@ -2,3 +2,4 @@
 Practicing ML and DL concepts and fundamentals using small datasets by making mini various projects.
 
 # 1. Image Manipulation
+# 2. Face Detection
