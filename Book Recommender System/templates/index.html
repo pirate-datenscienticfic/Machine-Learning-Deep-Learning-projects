@@ -11,6 +11,15 @@
     .text-white{
         color:white
     }
+    .text-yellow{
+        color:yellow
+    }
+    .text-red{
+        color:red
+    }
+    .text-blue{
+        color:blue
+    }
 </style>
 
 
@@ -19,8 +28,8 @@
         <p class="navbar-brand">My Book Recommnedation</p>
 
         <ul class="nav navbar-nav">
-            <li><a> Home </a></li>
-            <li><a> Recommender </a></li>
+            <li><a href="/"> Home </a></li>
+            <li><a href="/recommend"> Recommender </a></li>
             <li><a> Contacts </a></li>
         </ul>
     </nav>
@@ -35,11 +44,11 @@
                 <div class="col-md-3" style="margin-top:50px margin-right:50px">
                     <div class="card">
                         <div class="card-body">
-                            <img class="card-img-top" height="250" width="200" src="http://images.amazon.com/images/P/0439139597.01.MZZZZZZZ.jpg">
-                            <h3 class="text-white"> Harry Potter </h3>
-                            <p class="text-white"> j K Rowling </p>
-                            <p class="text-white"> Voting - 300 </p>
-                            <p class="text-white"> Rating - 9.0 </p>
+                            <img class="card-img-top" border="10px solid #555" height="300" width="250" src="{{ image[i] }}">
+                            <h4 class="text-red">{{ book_name[i] }}</h4>
+                            <p class="text-white">By: {{ author[i] }}</p>
+                            <p class="text-blue"> Voting - {{ votes[i] }} </p>
+                            <p class="text-yellow"> Rating - {{ rating[i] |round(1) }} </p>
                         </div>
                     </div>
                 </div>
