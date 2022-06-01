@@ -8,4 +8,4 @@ Practicing ML and DL concepts and fundamentals using small datasets by making mi
 # 5. [WhatsApp Chat Analyser](https://whatsup-chat-analysis.herokuapp.com/)
 # 6. Spam Detection
 # 7. [Book Recommendation Advicer]()
-# 8. 
+# 8. Comming Soon
